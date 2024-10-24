@@ -25,20 +25,6 @@ class MunicipioController extends Controller
     *         @OA\Schema(type="string")
     *     ),
     *     @OA\Parameter(
-    *         name="name",
-    *         in="query",
-    *         description="Filtrar pelo nome do município.",
-    *         required=false,
-    *         @OA\Schema(type="string")
-    *     ),
-    *     @OA\Parameter(
-    *         name="email",
-    *         in="query",
-    *         description="Filtrar por email (se aplicável).",
-    *         required=false,
-    *         @OA\Schema(type="string")
-    *     ),
-    *     @OA\Parameter(
     *         name="page",
     *         in="query",
     *         description="Número da página para paginação.",

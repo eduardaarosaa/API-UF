@@ -29,24 +29,6 @@
                         }
                     },
                     {
-                        "name": "name",
-                        "in": "query",
-                        "description": "Filtrar pelo nome do município.",
-                        "required": false,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
-                    {
-                        "name": "email",
-                        "in": "query",
-                        "description": "Filtrar por email (se aplicável).",
-                        "required": false,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
-                    {
                         "name": "page",
                         "in": "query",
                         "description": "Número da página para paginação.",
